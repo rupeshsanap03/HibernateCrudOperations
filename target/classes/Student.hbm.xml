@@ -4,16 +4,14 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping>
-   <class name = "com.sample.Hibernate2.Student" table = "Student">
+   <class name = "com.sample.Hibernate2.Student" table = "Student2">
       
-  
       
-      <id name = "id" column = "StudentId" type = "int" >
+      <id name = "id" column = "sid" type = "int" >
          <generator class="assigned"/>
       </id>
       
-      <property name = "name" column = "StudentName" type = "string"/>
-      <property name = "subject" column = "Subject" type = "string"/>
+      <property name = "name" column = "sname" type = "string"/>
       
    </class>
 </hibernate-mapping>

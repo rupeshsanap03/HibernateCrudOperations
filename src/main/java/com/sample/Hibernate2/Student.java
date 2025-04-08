@@ -2,29 +2,18 @@ package com.sample.Hibernate2;
 
 public class Student {
 	
-	public Student() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	private int id;
 	private String name;
-	private String subject;
 	
 	
-	
-	public Student(int id, String name, String subject) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.subject = subject;
+	public Student() {
 	}
+
+	/*
+	 * public Student(int id, String name) { super(); this.id = id; this.name =
+	 * name; }
+	 */
 	
-	public String getSubject() {
-		return subject;
-	}
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
 	public int getId() {
 		return id;
 	}
@@ -38,5 +27,5 @@ public class Student {
 		this.name = name;
 	}
 	
-
+	
 }
